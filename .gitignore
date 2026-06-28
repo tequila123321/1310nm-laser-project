@@ -1,0 +1,38 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Python / notebooks
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# Simulation outputs
+*.ldf
+*.fsp
+*.mph
+*.mphbin
+*.tdr
+*.plt
+*.log
+*.bak
+*.tmp
+results/
+exports/
+
+# Large measurement data
+*.h5
+*.hdf5
+*.mat
+*.csv
+*.tsv
+
+!experiments/templates/*.csv
+
