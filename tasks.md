@@ -12,9 +12,9 @@
 
 ## Phase 1 - First Design Models
 
-- [ ] Calculate photon energy for 1310 nm target.
+- [x] Calculate photon energy for 1310 nm target. (0.947 eV, simulations/active_region)
 - [ ] Select MQW starting structure from literature or foundry PDK.
-- [ ] Build 1D active-region model.
+- [x] Build 1D active-region model. (v0: lattice-matched, no strain; see simulations/active_region/README.md)
 - [ ] Build slab/ridge waveguide mode model.
 - [ ] Sweep ridge width from 1.5 um to 3.0 um.
 - [ ] Estimate optical confinement factor and internal loss.
